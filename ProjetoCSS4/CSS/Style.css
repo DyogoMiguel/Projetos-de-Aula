@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    background: lightgray;
+}
+
+
+.box-orange {
+    background: orange;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 5px;
+}
+
+.box-blue {
+    background: blue;
+    height: 100px;
+    width: 100px;
+}

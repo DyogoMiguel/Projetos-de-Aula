@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(201, 255, 211);
+}
+
+.first{
+    text-align: center;
+    border: 5px solid rgb(18, 96, 12);
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    z-index: 1;
+}
+.second{
+    position: center;
+    background-color: rgb(201, 255, 211);
+    border: 3px solid rgb(18, 96, 12);
+    margin:auto;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+}
+.third{
+    position: relative;
+    top: 10px;
+    right: 100px;
+    margin: auto;
+}
+.fourth{
+    text-align: center;
+    background-color: rgb(201, 255, 211);
+    border: 5px solid rgb(18, 96, 12);
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    
+}
+h3{
+    background-color: aliceblue;
+    display: table;
+    margin-left: 60px;
+}
+#mens{
+    height: 90px;
+    width: 250px;
+}
+.a{
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 60px;
+}
+.b{
+    position: absolute;
+    z-index: 3;
+    left: 530px;
+    top: 100px;
+}
+.c{
+    position: absolute;
+    z-index: 1;
+    left: 800px;
+    top: 305px;
+}
+.d{
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    top: 590px;
+}
+.e{
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    top: 850px;
+}
+.f{
+    left: 1000px;
+}
+.leg1{
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    left: 10px;
+    top: -10px;
+    border: 2px solid rgb(18, 96, 12);
+}
