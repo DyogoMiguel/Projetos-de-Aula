@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota</title>
+    <script>
+        var nota1 = parseInt(prompt("Digite a primeira nota:"));
+        var nota2 = parseInt(prompt("Digite a segunda nota:"));
+        var nota3 = parseInt(prompt("Digite a terceira nota:"));
+        var nota4 = parseInt(prompt("Digite a quarta nota:"));
+        var media = (nota1 + nota2 + nota3 + nota4) / 4;
+        alert("Sua média foi de " + media + "");
+        if ((media >= 7) && (nota <= 10)) {
+            alert("Você passou")
+        } else if ((media <7) && (media>=0)) {
+            alert("Você reprovou")
+        } else {
+            alert("Informação inválida")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
