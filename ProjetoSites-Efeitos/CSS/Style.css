@@ -1,0 +1,109 @@
+body {
+    background: #5f284b;
+    text-align: center;
+}
+
+.um {
+    width: 300px;
+    border: 10px solid rgb(135, 0, 0);
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(33, 0, 0);
+    font-size: xx-large;
+}
+
+.rainbow {
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.dois {
+    width: 400px;
+    height: 270px;
+    border: 10px solid rgb(135, 0, 0);
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://envato-shoebox-0.imgix.net/6eea/6d06-ff65-4366-982b-4aa37c1c4d5c/cinema_3d.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=f4d0d6788742387f926a55d6fa977dd9");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+}
+
+a{
+    color: black;
+}
+
+
+a:hover {
+    color: gold;
+}
+
+.dois:hover, .tres:hover, .quatro:hover {
+    border: 10px solid gold;
+    color: gold;
+
+}
+
+.tres {
+    width: 400px;
+    height: 270px;
+    border: 10px solid rgb(135, 0, 0);
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://classic.exame.com/wp-content/uploads/2020/12/GettyImages-133033277.jpg?quality=70&strip=info&w=1024");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+}
+
+.quatro {
+    width: 400px;
+    height: 270px;
+    border: 10px solid rgb(135, 0, 0);
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/watching-three-dimensional-movie-excited-young-man-three-dimensional-glasses-eating-popcorn-watching-movie-while-sitting-cinema_425904-36368.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+}
+
+.zero{
+    background-color: #302244;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    margin: 2px 100px 5px 100px;
+    padding: 20px;
+	border-image: conic-gradient(from left, red, yellow, lime, aqua, blue, magenta, red) 1;
+	
+	animation: 10s rotate linear infinite;
+}
